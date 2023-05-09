@@ -1,0 +1,4 @@
+[submodule "Ghidra/Processors/VAX"]
+	path = Ghidra/Processors/VAX
+        branch = main
+	url = git@github.com:kkaempf/ghidra-vax.git

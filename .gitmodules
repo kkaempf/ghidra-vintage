@@ -2,3 +2,6 @@
 	path = Ghidra/Processors/VAX
         branch = main
 	url = git@github.com:kkaempf/ghidra-vax.git
+[submodule "Ghidra/Processors/NMOS-II"]
+	path = Ghidra/Processors/NMOS-II
+	url = https://github.com/kkaempf/ghidra-nmos-ii.git

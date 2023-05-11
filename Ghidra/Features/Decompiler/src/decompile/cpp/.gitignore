@@ -16,4 +16,9 @@ ghi_dbg
 ghi_opt
 sla_dbg
 sla_opt
-
+pcodeparse.cc
+slghparse.cc
+slghparse.hh
+slghscan.cc
+xml.cc
+grammar.cc

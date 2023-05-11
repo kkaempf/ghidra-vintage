@@ -154,7 +154,24 @@ def Map<String, List<String>> getIpForModule(Project p) {
 		exclude "**/*.vcxproj.user"
 		exclude '**/__pycache__'
 		exclude '**/*.egg-info'
+                exclude "**/grammar.cc"
+                exclude "**/pcodeparse.cc"
+                exclude "**/slghparse.cc"
+                exclude "**/slghparse.hh"
+                exclude "**/slghscan.cc"
+                exclude "**/xml.cc"
+                exclude "**/sla_dbg/**"
+                exclude "**/sla_opt/**"
+                exclude "**/com_dbg/**"
+                exclude "**/com_opt/**"
+                exclude "**/ghi_dbg/**"
+                exclude "**/ghi_opt/**"
+                exclude "**/ghidra_dbg/**"
+                exclude "**/ghidra_opt/**"
+                exclude "**/sleigh_opt"
+                exclude "**/sleigh_dbg"
 	}
+
 	tree.each { file ->
 			String ip = getIp(p.projectDir, file)
 			assert ip != null : "No IP found for "+file.path+ " in module: "+p.projectDir

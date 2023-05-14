@@ -408,6 +408,6 @@ resetgcov:
 
 reallyclean:	clean	
 	rm -rf coreext_*.cc coreext_*.hh ghidraext_*.cc ghidraext_*.hh consoleext_*.cc consoleext_*.hh
-	rm -rf com_dbg com_opt test_dbg ghi_dbg ghi_opt sla_dbg sla_opt
+	rm -rf pcodeparse.cc slghparse.cc ruleparse.cc ruleparse.hh slghparse.hh slghscan.cc xml.cc grammar.cc
+	rm -rf com_dbg com_opt test_dbg ghi_dbg ghi_opt sla_dbg sla_opt decomp_dbg decomp_opt
 	rm -f $(EXECS) TAGS *~
-

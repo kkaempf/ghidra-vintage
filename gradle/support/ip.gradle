@@ -147,6 +147,8 @@ def Map<String, List<String>> getIpForModule(Project p) {
                 exclude "**/com_opt/**"
                 exclude "**/ghi_dbg/**"
                 exclude "**/ghi_opt/**"
+                exclude "**/ghidra_dbg/**"
+                exclude "**/ghidra_opt/**"
                 exclude "**/sleigh_opt"
                 exclude "**/sleigh_dbg"
 	}

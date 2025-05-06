@@ -6,3 +6,7 @@
 	path = Ghidra/Processors/NMOS-II
         branch = main
 	url = https://github.com/kkaempf/ghidra-nmos-ii.git
+[submodule "Ghidra/Processors/Alpha"]
+	path = Ghidra/Processors/Alpha
+        branch = main
+	url = https://github.com/kkaempf/ghidra-alpha.git

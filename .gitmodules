@@ -1,12 +1,10 @@
-[submodule "Ghidra/Processors/VAX"]
-	path = Ghidra/Processors/VAX
-        branch = main
-	url = https://github.com/kkaempf/ghidra-vax.git
-[submodule "Ghidra/Processors/NMOS-II"]
-	path = Ghidra/Processors/NMOS-II
-        branch = main
-	url = https://github.com/kkaempf/ghidra-nmos-ii.git
 [submodule "Ghidra/Processors/Alpha"]
 	path = Ghidra/Processors/Alpha
         branch = main
 	url = https://github.com/kkaempf/ghidra-alpha.git
+[submodule "Ghidra/Processors/VAX"]
+	path = Ghidra/Processors/VAX
+	url = https://github.com/kkaempf/ghidra-vax.git
+[submodule "Ghidra/Processors/NMOS-II"]
+	path = Ghidra/Processors/NMOS-II
+	url = https://github.com/kkaempf/ghidra-nmos-ii.git
